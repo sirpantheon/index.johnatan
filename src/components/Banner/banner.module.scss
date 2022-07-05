@@ -1,0 +1,20 @@
+.container{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 30rem;
+    background-color: #9B00BA;
+    flex-direction: row;
+}
+.apresentacao{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.imagen{
+    display: flex;
+    width: 50%;
+}

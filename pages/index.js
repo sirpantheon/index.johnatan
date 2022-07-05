@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Menu from '../src/components/Menu';
+import Conteudo from '../src/screen/conteudo';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       </Head>
 
       <Menu />
+      <Conteudo />
 
     </div>
   )
