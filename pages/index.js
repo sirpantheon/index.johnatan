@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Menu from '../src/components/Menu';
+import Contato from '../src/components/Contato';
 import Conteudo from '../src/screen/conteudo';
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
 
       <Menu />
       <Conteudo />
+      <Contato />
 
     </div>
   )

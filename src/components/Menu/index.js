@@ -1,5 +1,7 @@
 import Link from "../Link";
 import styles from './menu.module.scss';
+import Image from 'next/image'
+import imagenJohn from '../../../public/john4.png'
 
 export default function Menu() {
     return (
@@ -7,7 +9,7 @@ export default function Menu() {
             <div className={styles.menu}>
 
                 <div className={styles.avatar}>
-                    <h1>JP</h1>
+                    <Image src={imagenJohn} alt={imagenJohn} />
                 </div>
                 
 
