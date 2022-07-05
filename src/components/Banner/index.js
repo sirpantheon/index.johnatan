@@ -1,6 +1,6 @@
-import styles from './banner.module.scss'
-import Image from 'next/image'
-import imagenJohn from '../../../public/john3.png'
+import styles from './banner.module.scss';
+import Image from 'next/image';
+import imagenJohn from '../../../public/john3.png';
 
 export default function Banner() {
 
@@ -14,7 +14,6 @@ export default function Banner() {
         </div>
 
         <div className={styles.imagen}>
-
           <Image src={imagenJohn} alt={"john"} />
         </div>
     </div>

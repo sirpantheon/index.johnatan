@@ -11,7 +11,6 @@ export default function Menu() {
                 <div className={styles.avatar}>
                     <Image src={imagenJohn} alt={imagenJohn} />
                 </div>
-                
 
                 <div className={styles.botoes}>
                     <Link href="/">
