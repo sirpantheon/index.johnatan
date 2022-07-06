@@ -26,14 +26,39 @@
     display: flex;
     align-items: flex-end;
 
+    button {
+        border: none;
+        text-decoration: none;
+        color: #FFF;
+        background: none;
+        font-size: 1rem;
+        font-weight: bold;
+        cursor: pointer;
+        margin: 2rem;
+        width: 10rem;
+        height: 5vh;
+
+        a {
+            color: azure;
+            font-size: medium;
+            display: flex;
+            justify-content: space-between;
+
+        }
+    }
 
     a {
-        color: azure;
-        font-size: medium;
-        display: flex;
-        justify-content: space-between;
+        :hover {
+            border-top: #FFF solid 3px;
+            color: #9B00BA;
+            font-size: large;
+        }
     }
+
 }
+
+
+
 
 .avatar {
     display: flex;

@@ -1,4 +1,3 @@
-import { Voltar } from '../../components/voltar';
 import styles from './projetos.module.scss';
 
 export default function Projetos() {
@@ -37,8 +36,6 @@ export default function Projetos() {
                 </div>
 
             </div>
-            
-                <Voltar ir="/sobre"/>
             
         </div>
     )

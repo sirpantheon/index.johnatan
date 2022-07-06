@@ -14,13 +14,16 @@ export default function Menu() {
 
                 <div className={styles.botoes}>
                     <Link href="/">
-                        Home
+                        <button>Home</button>
                     </Link>
                     <Link href="/sobre">
-                        Sobre
+                        <button>Sobre</button>
                     </Link>
                     <Link href="/projetos">
-                        Projetos
+                        <button>Projetos</button>
+                    </Link>
+                    <Link href="/cursos">
+                        <button>Habilidades/Cursos</button>
                     </Link>
 
                 </div>

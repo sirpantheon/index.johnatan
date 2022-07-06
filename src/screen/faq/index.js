@@ -1,7 +1,6 @@
 import styles from './faq.module.scss';
 import imagenJohn from '../../../public/john3.png';
 import Image from 'next/image';
-import {Avancar, Voltar} from '../../components/voltar'
 
 export default function Sobre() {
     return (
@@ -28,8 +27,6 @@ export default function Sobre() {
                     pra me destacar em meio tantas pessoas incríveis e o reconhecimento dado a min pelo os professores me deixava muito feliz.
                 </p>
             </div>
-            <Avancar ir="/projetos"/>
-            <Voltar ir="/"/>
         </div>
     )
 }
