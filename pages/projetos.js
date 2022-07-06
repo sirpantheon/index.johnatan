@@ -1,12 +1,16 @@
+import Footer from '../src/components/Footer';
+import Menu from '../src/components/Menu';
+import Projetos from '../src/screen/projetos';
 
 
 export default function ProjetosPag() {
-    return (
-      <div>
-  
-        <h1>projetos</h1>
+  return (
+    <div>
 
-      </div>
-    )
-  }
-  
+      <Menu />
+      <Projetos />
+      <Footer />
+
+    </div>
+  )
+}

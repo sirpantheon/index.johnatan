@@ -1,14 +1,18 @@
-import Banner from '../../components/Banner'
-import Footer from '../../components/Footer'
-import styles from './conteudo.module.scss'
-import Menu from '../../components/Menu';
+import Banner from '../../components/Banner';
+import { Avancar } from '../../components/voltar';
+import styles from './conteudo.module.scss';
+
+
 
 export default function Conteudo() {
   return (
     <div className={styles.container}>
       <div className={styles.container_conteudo}>
+
+        <Banner />
         
-      <Banner />
+          <Avancar ir="/sobre"/>
+        
 
       </div>
     </div>
