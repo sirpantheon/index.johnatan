@@ -1,5 +1,5 @@
 .container {
-    background-color: #66007a;
+    background-color: var(--roxo-claro);
     display: flex;
     align-items: center;
     width: 100%;
@@ -20,45 +20,42 @@
 }
 
 .botoes {
-    margin-left: 35rem;
-    justify-content: space-between;
-    width: 100%;
-    display: flex;
+    justify-content: flex-end;
     align-items: flex-end;
+    display: flex;
+    width: 100%;
+    margin-left: 15vw;
 
     button {
         border: none;
         text-decoration: none;
-        color: #FFF;
+        color: var(--branco);
         background: none;
         font-size: 1rem;
         font-weight: bold;
         cursor: pointer;
-        margin: 2rem;
-        width: 10rem;
+        margin: 2rem 0;
+        width: 15rem;
         height: 5vh;
+        transition: font-size 1s;
 
-        a {
-            color: azure;
-            font-size: medium;
-            display: flex;
-            justify-content: space-between;
-
-        }
     }
 
     a {
+        color: var(--branco);
+        font-size: medium;
+        display: flex;
+        justify-content: space-between;
+
         :hover {
-            border-top: #FFF solid 3px;
-            color: #9B00BA;
-            font-size: large;
+            border-top: var(--branco) solid 3px;
+            color: var(--branco);
+            font-size: 1.3em;
+            opacity: 50%;
         }
     }
 
 }
-
-
-
 
 .avatar {
     display: flex;

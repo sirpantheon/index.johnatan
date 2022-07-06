@@ -7,7 +7,7 @@ import Link from '../Link'
 
 export default function Footer() {
     return (
-        <div className={styles.container}>
+        <footer className={styles.container}>
             <Link href="https://www.linkedin.com/in/johnatan-sousa-silva-paixao-87ab81123/">
                 <Image src={LogoLin} alt={"linkedin"} />
             </Link>
@@ -18,6 +18,6 @@ export default function Footer() {
                 <Image src={LogoGmail} alt={"gmail"} />
                 <span>johnatan.sousa@gmail.com</span>
             </div>
-        </div>
+        </footer>
     )
 }

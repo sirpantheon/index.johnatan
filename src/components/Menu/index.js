@@ -5,7 +5,7 @@ import imagenJohn from '../../../public/john4.png'
 
 export default function Menu() {
     return (
-        <div className={styles.container}>
+        <navbar className={styles.container}>
             <div className={styles.menu}>
 
                 <div className={styles.avatar}>
@@ -28,6 +28,6 @@ export default function Menu() {
 
                 </div>
             </div>
-        </div>
+        </navbar>
     )
 }
