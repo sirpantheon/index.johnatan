@@ -5,7 +5,8 @@ export const GlobalStyles = createGlobalStyle`
 :root{
   --roxo-escuro:#31003B;
   --roxo-claro:#66007a;
-  --branco:#FFF
+  --branco:#FFF;
+  --preto:#000
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');

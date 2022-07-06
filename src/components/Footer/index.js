@@ -1,8 +1,8 @@
 import styles from './footer.module.scss';
 import Image from 'next/image';
-import LogoLin from '../../../public/icons8-linkedin.svg';
-import LogoGit from '../../../public/icons8-github.svg';
-import LogoGmail from '../../../public/gmail.png';
+import LogoLin from '../../../public/icons8-linkedin-preto.svg';
+import LogoGit from '../../../public/icons8-github-preto.svg';
+import LogoGmail from '../../../public/icons8-google-logo-preto.svg';
 import Link from '../Link'
 
 export default function Footer() {

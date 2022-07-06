@@ -1,7 +1,7 @@
 import Link from "../Link";
 import styles from './menu.module.scss';
 import Image from 'next/image'
-import imagenJohn from '../../../public/john4.png'
+import imagenJohn from '../../../public/john6.png'
 
 export default function Menu() {
     return (
