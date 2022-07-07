@@ -3,7 +3,7 @@ import Image from 'next/image';
 import LogoLin from '../../../public/icons8-linkedin-preto.svg';
 import LogoGit from '../../../public/icons8-github-preto.svg';
 import LogoGmail from '../../../public/icons8-google-logo-preto.svg';
-import Link from '../Link'
+import Link from '../Link';
 
 export default function Footer() {
     return (
