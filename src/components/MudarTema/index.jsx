@@ -2,9 +2,9 @@ import styles from './mudarTema.module.scss';
 
 export default function MudarTema() {
   return (
-    <div>
-      <button className={styles.mybutton}>
-      <p>j</p>
+    <div className={styles.container}>
+      <button className={styles.myButton}>
+      
       </button>
     </div>
   )

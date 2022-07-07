@@ -1,22 +1,27 @@
+
 .myButton {
-	box-shadow:inset 15px 0px 11px 1px #000000;
-	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+    width: 2vw;
+    height: 3vh;
+	box-shadow:inset 12px -1px 0px 1px var(--roxo-claro);
 	background-color:#ffffff;
-	border-radius:42px;
-	border:1px solid #000000;
+	border-radius:50%;
+	border:1px solid var(--roxo-claro);
 	display:inline-block;
 	cursor:pointer;
-	color:#000000;
-	font-family:Arial;
-	font-size:18px;
-	padding:10px 0px;
-	text-decoration:none;
+	color:#ffffff;
+    position: absolute;
+    right: 5rem;
+    top:0.6rem;
+    button{
+        width: 4vw;
+        height: 4vh;
+    }
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
-	background-color:#ffffff;
+	background-color:var(--preto);
 }
 .myButton:active {
-	position:relative;
-	top:1px;
+	top:0.8rem;
 }
+
+        
