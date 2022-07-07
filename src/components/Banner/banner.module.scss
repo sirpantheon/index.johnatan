@@ -47,22 +47,27 @@
   .apresentacao {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 60vw;
     color: var(--roxo-claro);
 
     h1 {
-      font-size: 3em;
+      display: flex;
+      font-size: 5vw;
     }
 
     h3 {
-      font-size: 3rem;
+      display: flex;
+      font-size: 3vw;
       font-weight: 400;
       margin: 0,5rem 0;
       border-bottom: 1px solid var(--roxo-claro);
     }
     p{
-      font-weight: 400;
-      font-size: 1.5rem;
+      display: flex;
+      font-weight: 300;
+      font-size: 2vw;
     }
   }
 
@@ -70,7 +75,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    width: 50%;
+    width: 40vw;
     color: var(--roxo-claro);
   }
 }

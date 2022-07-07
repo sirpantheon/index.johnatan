@@ -17,21 +17,22 @@
     .container {
         position: absolute;
         background-color: var(--branco);
-        width: 100%;
+        width: 100vw;
         height: 7vh;
-        bottom: 1px;
+        bottom: 0;
         display: flex;
         justify-content: space-around;
         align-items: center;
         border-top: 1px solid var(--roxo-claro);
 
         img{
-            width: 3em;
+            width: 2vw;
         }
 
 
         span {
-            font-weight: 800;
+            font-size: 1vw;
+            font-weight: 3vw;
             color: var(--roxo-claro);
         }
     }
@@ -42,6 +43,7 @@
         justify-content: center;
     }
     .img{
-        width: 3rem;
+        width: 3vw;
+        height: 3vh;
     }
 }
