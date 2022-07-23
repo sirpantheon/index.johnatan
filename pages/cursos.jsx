@@ -1,16 +1,9 @@
-import Footer from '../src/components/Footer';
-import Menu from '../src/components/Menu';
-import Cursos from '../src/screen/cursos';
-
+import Cursos from '../src/screen/Cursos';
 
 export default function CursosPag() {
   return (
-    <div>
-
-      <Menu />
+    <div> 
       <Cursos />
-      <Footer />
-
     </div>
   )
 }

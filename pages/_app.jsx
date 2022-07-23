@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import Footer from '../src/components/Footer';
+import Menu from '../src/components/Menu';
 import { GlobalStyles } from '../styles/GlobalStyles'
 
 
@@ -15,6 +17,8 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <GlobalStyles />
+      <Menu />
+      <Footer />
       <Component {...pageProps} />
     </>
   )
