@@ -2,7 +2,6 @@ import Link from "../Link";
 import styles from './menu.module.scss';
 import Image from 'next/image'
 import imagenJohn from '../../../public/john6.png'
-import MudarTema from '../MudarTema';
 
 export default function Menu() {
     return (
@@ -26,9 +25,7 @@ export default function Menu() {
                     <Link href="/cursos">
                         <button>Habilidades/Cursos</button>
                     </Link>
-
                 </div>
-                    <MudarTema />
             </div>
         </navbar>
     )
