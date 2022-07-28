@@ -24,7 +24,7 @@
     "**/*.ts",
     "**/*.tsx",
     "**/*.jsx"
-, "pages/sobre.jsx", "pages/projetos.jsx"  ],
+, "pages/sobre.tsx", "pages/projetos.tsx"  ],
   "exclude": [
     "node_modules"
   ]

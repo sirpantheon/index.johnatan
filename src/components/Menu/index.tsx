@@ -3,13 +3,13 @@ import styles from './menu.module.scss';
 import Image from 'next/image'
 import imagenJohn from '../../../public/john6.png'
 
-export default function Menu() {
+export default function Menu(){
     return (
-        <navbar className={styles.container}>
+        <div className={styles.container}>
             <div className={styles.menu}>
 
                 <div className={styles.avatar}>
-                    <Image src={imagenJohn} alt={imagenJohn} />
+                    <Image src={imagenJohn} alt={"imagenJohn"} />
                 </div>
 
                 <div className={styles.botoes}>
@@ -27,6 +27,6 @@ export default function Menu() {
                     </Link>
                 </div>
             </div>
-        </navbar>
+        </div>
     )
 }
