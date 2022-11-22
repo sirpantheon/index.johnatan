@@ -19,12 +19,12 @@ export default function Menu(){
                     <Link href="/sobre">
                         <button>Sobre</button>
                     </Link>
-                    <Link href="/projetos">
+                    {/* <Link href="/projetos">
                         <button>Projetos</button>
                     </Link>
                     <Link href="/cursos">
                         <button>Habilidades/Cursos</button>
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
         </div>
