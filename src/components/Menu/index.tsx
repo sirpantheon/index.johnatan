@@ -1,7 +1,7 @@
-import Link from "../Link";
 import styles from './menu.module.scss';
 import Image from 'next/image'
 import imagenJohn from '../../../public/john6.png'
+import Link from 'next/link';
 
 export default function Menu(){
     return (
@@ -13,10 +13,10 @@ export default function Menu(){
                 </div>
 
                 <div className={styles.botoes}>
-                    <Link href="/">
+                    <Link href="/" id="home">
                         <button>Home</button>
                     </Link>
-                    <Link href="/sobre">
+                    <Link href="/sobre" id="sobre">
                         <button>Sobre</button>
                     </Link>
                 </div>
